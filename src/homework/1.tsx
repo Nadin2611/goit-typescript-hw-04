@@ -6,10 +6,10 @@
 
 // Встановіть правильний тип для options (клас також може бути типом для options).
 
-import React, { useEffect, useRef } from "react";
+import React, { ReactNode, useEffect, useRef } from "react";
 
 interface IObserverProps {
-  children: React.ReactNode;
+  children: ReactNode;
   onContentEndVisible: () => void;
 }
 
